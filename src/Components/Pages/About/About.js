@@ -10,14 +10,14 @@
 // const About = () => {
 //   const [userOrders, setUserOrders] = useState([]);
 //   useEffect(() => {
-//     fetch("http://localhost:5000/booking")
+//     fetch("https://car-vista-client.onrender.com/booking")
 //       .then((res) => res.json())
 //       .then((data) => setUserOrders(data));
 //   }, []);
 //   const handleDeleteUserService = (id) => {
 //     const proceed = window.confirm("Are you sure, you want to delete?", id);
 //     if (proceed) {
-//       const url = `http://localhost:5000/booking/${id}`;
+//       const url = `https://car-vista-client.onrender.com/booking/${id}`;
 //       fetch(url, {
 //         method: "DELETE",
 //       })
@@ -116,14 +116,14 @@ export default function About() {
 
   const [userOrders, setUserOrders] = React.useState([]);
   React.useEffect(() => {
-    fetch("http://localhost:5000/booking")
+    fetch("https://car-vista-client.onrender.com/booking")
       .then((res) => res.json())
       .then((data) => setUserOrders(data));
   }, []);
   const handleDeleteUserService = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete?", id);
     if (proceed) {
-      const url = `http://localhost:5000/booking/${id}`;
+      const url = `https://car-vista-client.onrender.com/booking/${id}`;
       fetch(url, {
         method: "DELETE",
       })

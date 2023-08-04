@@ -9,7 +9,7 @@ const AllProducts = () => {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://car-vista-client.onrender.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .then(() => setIsLoading(false));

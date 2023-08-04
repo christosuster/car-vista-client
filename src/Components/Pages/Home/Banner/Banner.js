@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Banner = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://car-vista-client.onrender.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

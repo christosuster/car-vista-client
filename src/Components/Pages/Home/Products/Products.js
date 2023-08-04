@@ -6,7 +6,7 @@ import StarIcon from "@mui/icons-material/AccessAlarm";
 const Products = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://car-vista-client.onrender.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

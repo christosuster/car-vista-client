@@ -22,7 +22,7 @@ const AddAProduct = () => {
   };
   const handleProductDateSubmit = (e) => {
     const product = { ...carData };
-    fetch("http://localhost:5000/products", {
+    fetch("https://car-vista-client.onrender.com/products", {
       method: "POST",
       headers: {
         "content-type": "application/json",

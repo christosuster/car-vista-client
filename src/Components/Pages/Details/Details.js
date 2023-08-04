@@ -36,7 +36,7 @@ const Details = () => {
       condition: "pending",
       car_Detail: itemDetail[0],
     };
-    fetch("http://localhost:5000/booking", {
+    fetch("https://car-vista-client.onrender.com/booking", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -56,7 +56,7 @@ const Details = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://car-vista-client.onrender.com/products")
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch();

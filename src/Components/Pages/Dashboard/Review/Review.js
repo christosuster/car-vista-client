@@ -27,7 +27,7 @@ const Review = () => {
           : "https://christopherscottedwards.com/wp-content/uploads/2018/07/Generic-Profile.jpg"
       }`,
     };
-    fetch("http://localhost:5000/reviews", {
+    fetch("https://car-vista-client.onrender.com/reviews", {
       method: "POST",
       headers: {
         "content-type": "application/json",
