@@ -1,0 +1,18 @@
+.text-color-update {
+  color: #6c6c6c;
+}
+.text-color-update-2 {
+  color: #e76f51;
+}
+.text-color-update-3 {
+  color: #e0e0e0;
+}
+
+.addresses > .col > p {
+  line-height: normal;
+  margin: 4px;
+}
+
+.addresses {
+  text-align: center;
+}

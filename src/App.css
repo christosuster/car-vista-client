@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  background-color: #011c2f;
+}
+
+.banner-carousel {
+}
+
+.carouselItem > img {
+  height: 650px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.carousel-text {
+  text-shadow: 0px 4px 9px black;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 800;
+}
